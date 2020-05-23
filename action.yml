@@ -1,4 +1,4 @@
-name: 'Deploy to Firebase Functions'
+name: 'Deploy to Firebase Function'
 author: 'Waveblur <prachayawut.s@gmail.com>'
 description: 'A GitHub Action to deploy to Firebase Functions'
 runs:
