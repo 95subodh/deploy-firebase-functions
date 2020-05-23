@@ -5,6 +5,8 @@ if [ -z "${FIREBASE_TOKEN}" ]; then
     exit 1
 fi
 
+cd functions; npm i
+
 firebase deploy \
     --token ${FIREBASE_TOKEN} \
     --only functions
